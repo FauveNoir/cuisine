@@ -18,25 +18,25 @@ A MIAM file is basically a text file following the
 [Markdown](http://daringfireball.net/projects/markdown/) rules. In addition of
 those, you can use metadata to help good indexing of the recipe.
 The category of a recipe is given by its parent folder. Its language is given by
-the extension (for example, tartiflette.en.miam for the recipe for *tartiflette*
+the extension (for example, [tartiflette.en.miam](tartiflette.en.miam) for the recipe for *tartiflette*
 in english).
 
 ## cuisine.py options
 
---random: selects and shows a random recipe that meet the optional criterias. If
+`--random`: selects and shows a random recipe that meet the optional criterias. If
   not specified, the full list of corresponding recipes will be shown
 
---with=<list,of,ingredients>: comma-separated list of ingredients that **must**
+`--with=<list-of-ingredients>`: comma-separated list of ingredients that **must**
   be found in the recipe
   
---without=<list,of,ingredients>: comma-separated list of ingredients that **must
+`--without=<list-of-ingredients>`: comma-separated list of ingredients that **must
   not** be found in the recipe
 
---veggie, --vegan, --hallal […]: returns recipes that fit given culture only
+`--veggie`, `--vegan`, `--hallal` […]: returns recipes that fit given culture only
 
---category=<cat>: returns recipes in the given category only
+`--category=<cat>`: returns recipes in the given category only
 
---keyword=<keyword>: returns recipes that contains the given keyword(s) (can be
+`--keyword=<keyword>`: returns recipes that contains the given keyword(s) (can be
   a list of comma-separated values)
 
---get=<name>: shows the recipe <name>
+`--get=<name>`: shows the recipe <name>

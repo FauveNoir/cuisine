@@ -26,10 +26,10 @@ in english).
 `--random`: selects and shows a random recipe that meet the optional criterias. If
   not specified, the full list of corresponding recipes will be shown
 
-`--with=<list-of-ingredients>`: comma-separated list of ingredients that **must**
+`--with=<list,of,ingredients>`: comma-separated list of ingredients that **must**
   be found in the recipe
   
-`--without=<list-of-ingredients>`: comma-separated list of ingredients that **must
+`--without=<list,of,ingredients>`: comma-separated list of ingredients that **must
   not** be found in the recipe
 
 `--veggie`, `--vegan`, `--hallal` […]: returns recipes that fit given culture only
